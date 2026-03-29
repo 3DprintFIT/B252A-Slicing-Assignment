@@ -1,7 +1,7 @@
 # Zadání cvičení na Slicing
 
 Před odevzdáním úlohy přes GitHub je třeba
-[projevit souhlas se zpracováním  osobních údajů](https://courses.fit.cvut.cz/BI-3DT/gdpr.html).
+[projevit souhlas se zpracováním  osobních údajů](https://courses.fit.cvut.cz/BI-3DT/cs/gdpr.html).
 
 Vaším dnešním úkolem bude naslicovat několik modelů v aplikaci Slic3r.
 Abyste ale nezačínali s prázdnou, máme pro vás jako config bundle,
