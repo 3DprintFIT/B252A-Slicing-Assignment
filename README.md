@@ -56,12 +56,13 @@ a to otvírák na pivo – [bottle_opener](bottle_opener.stl)
 
 - 30% infill se vzorem 3D Honeycombu
 - 3mm (exterior) brim
-- Infill se tiskne s rychlostí 40 mm/s
-- Zpomalte tisk, pokud je doba výtisku jedné vrstvy menší než 20 s
+- Infill se tiskne s rychlostí 240 mm/s
+- Prvních 5 vrstev nemá žádné chlazení
+- Zpomalte tisk, pokud je doba výtisku jedné vrstvy menší než 6 s
   - (hint: je to proto, aby **plast** měl čas **vychladnout**)
 - Větráček bude permanentně zaplý s minimální rychlostí 10 %
-- Retrakce o 2 mm, když se přejíždí prázdným místem
-  - (hint: nastavení retrakce je specifické pro **extruder**)
+- Během retrakce by se tisková hlava měla zvednout o 2 mm (Z-hop), když se přejíždí prázdným místem
+  - (hint: nastavení Z-hop je specifické pro **extruder**)
 
 ![bottle_opener.png](bottle_opener.png)
 
@@ -87,7 +88,7 @@ Druhý je držák na tužky Darth Vadera – [vader_cup_v03.stl](vader_cup_v03.s
 ### Kostičky
 
 Kamarád chce vytisknout devět kostiček. Všechny s tenkou stěnou,
-infill co vypadá, jako hvězda, hustota 10 %,
+infill ten co má na sebe kolmé čáry, hustota 10 %,
 výplň rovnoběžná s hranami kostky. Jeden perimetr a po jedné stěně nahoře i dole.
 Vy osobně se bojíte, aby vám kostičky nepopraskaly kvůli průvanu v místnosti,
 takže kolem nich chcete vystavět ochranou bariéru.
@@ -104,6 +105,8 @@ Kostičkami je zakázáno otáčet, protože kamarád má iracionální strach z
 Na vaší 3D tiskárně Voron napraskl díl držící Z motor.
 Máte k dispozici pouze STL, kde jsou oba držáky motorů vedle sebe,
 a chcete vytisknout pouze jeden. Měl by mít pevnost takovou, jako udává [dokumentace Voron](https://docs.vorondesign.com/sourcing.html#print-settings). Udávají několik možností výplně, ale vy víte, že máte pouze 19 minut na tisk. Rozhodnete se proto použít výšší výšku vrstvy. Použijte nejnižší možnou výšku vrstvy, která vám umožní vytisknout díl do 19 minut. Na druhu infillu nezáleží, ale doporučujeme Cubic.
+
+Dokumentace Voron doporučuje filament ABS, takže vyberte profil ABS @Voron.
 
 Tip: Používejte inkrement výšky vrstvy 0.05 mm, začněte na 0.2 mm a zvyšujte, dokud se vám nepodaří dostat na vhodný čas tisku. Nemůžete mít vyšší výšku vrstvy než 0.4 mm, protože máte trysku s průměrem 0.4 mm.
 
