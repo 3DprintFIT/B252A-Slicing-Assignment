@@ -5,7 +5,8 @@ Před odevzdáním úlohy přes GitHub je třeba
 
 Vaším dnešním úkolem bude naslicovat několik modelů v aplikaci OrcaSlicer.
 
-\*\*Repozitář vytvořte na odkazu https://classroom.github.com/a/pkFhV4OT
+ * Repozitář vytvořte na odkazu https://classroom.github.com/a/pkFhV4OT
+
 Do vašeho vytvořeného repozitáře odevzdáte soubory `bulbasaur.gcode`,
 `vader_cup_v03.gcode`, `bottle_opener.gcode`,
 `cube.gcode`, `T8_Nut_Block.gcode` a `koch_snowflake.gcode`.
