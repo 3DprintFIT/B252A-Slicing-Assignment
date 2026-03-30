@@ -80,6 +80,7 @@ a to otvírák na pivo – [bottle_opener](bottle_opener.stl)
 - Větráček bude permanentně zaplý s minimální rychlostí 10 %
 - Během retrakce by se tisková hlava měla zvednout o 2 mm (Z-hop), když se přejíždí prázdným místem
   - (hint: nastavení Z-hop je specifické pro **extruder**)
+  - tuto hodnotu musíte změnit v nastavení tiskárny, jinak nebude fungovat automatická kontrola
 
 ![bottle_opener.png](bottle_opener.png)
 
