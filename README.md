@@ -44,6 +44,24 @@ První z modelů je [bulbasaur.stl](bulbasaur.stl)
 
 ![bulbasaur.png](bulbasaur.png)
 
+### DarthHolder
+
+Druhý je držák na tužky Darth Vadera – [vader_cup_v03.stl](vader_cup_v03.stl)
+(CC BY-NC 3.0 [tmasantos](https://www.thingiverse.com/thing:1396307))
+
+- Materiál PETG
+- Výška jedné vrstvy je 0.25 mm, ale první vrstva je 0.3 mm
+- Rychlost tisku infillu je 245 mm/s, perimetry tiskneme s rychlostí 140 mm/s
+- Chceme nechat vygenerovat support, máme rádi ekologii, takže stromové.
+- Perimetry nám stačí tři
+- Infill 12% a pattern "Gyroid"
+- Minimum Loops u skirtu změníme na 3
+- Jako generátor stěn chceme zkusit Arachne
+- Žádný brim
+- Teplota extruderu na první vrstvu je 238°C a na ostatní 248°C
+
+![vader_cub_v03.png](vader_cup_v03.png)
+
 ### Bottle opener
 
 Nechcete pořád tisknout jen figurky, ale také něco praktického
