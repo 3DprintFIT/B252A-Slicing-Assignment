@@ -108,9 +108,8 @@ Kostičkami je zakázáno otáčet, protože kamarád má iracionální strach z
 
 #### Náhradní díl k tiskárně
 
-Na vaší 3D tiskárně Voron napraskl díl držící Z motor.
-Máte k dispozici pouze STL, kde jsou oba držáky motorů vedle sebe,
-a chcete vytisknout pouze jeden. Měl by mít pevnost takovou, jako udává [dokumentace Voron](https://docs.vorondesign.com/sourcing.html#print-settings). Udávají několik možností výplně, ale vy víte, že máte pouze 20 minut na tisk. Rozhodnete se proto použít výšší výšku vrstvy. Použijte nejnižší možnou výšku vrstvy, která vám umožní vytisknout díl do 20 minut. Na druhu sparse infillu nezáleží, ale doporučujeme Cubic.
+Na vaší 3D tiskárně Voron napraskl díl držící matici.
+Měl by mít pevnost takovou, jako udává [dokumentace Voron](https://docs.vorondesign.com/sourcing.html#print-settings). Udávají několik možností výplně, ale vy víte, že máte pouze 20 minut na tisk. Rozhodnete se proto použít výšší výšku vrstvy. Použijte nejnižší možnou výšku vrstvy, která vám umožní vytisknout díl do 20 minut. Na druhu sparse infillu nezáleží, ale doporučujeme Cubic.
 
 Dokumentace Voron doporučuje filament ABS, takže vyberte profil ABS @Voron.
 
@@ -242,9 +241,8 @@ Rotating the cubes is forbidden because the friend has an irrational fear of rho
 
 #### Printer spare part
 
-A part holding the Z motor on your Voron 3D printer has cracked.
-You only have an STL file where both motor mounts are side by side,
-and you want to print only one. It should have the strength specified in the [Voron documentation](https://docs.vorondesign.com/sourcing.html#print-settings). They list several infill options, but you know you only have 20 minutes to print. You therefore decide to use a higher layer height. Use the lowest possible layer height that allows you to print the part within 20 minutes. The type of sparse infill does not matter, but we recommend Cubic.
+A part holding a nut on your Voron 3D printer has cracked.
+It should have the strength specified in the [Voron documentation](https://docs.vorondesign.com/sourcing.html#print-settings). They list several infill options, but you know you only have 20 minutes to print. You therefore decide to use a higher layer height. Use the lowest possible layer height that allows you to print the part within 20 minutes. The type of sparse infill does not matter, but we recommend Cubic.
 
 The Voron documentation recommends ABS filament, so select the ABS @Voron profile.
 
