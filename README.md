@@ -106,7 +106,7 @@ Kostičkami je zakázáno otáčet, protože kamarád má iracionální strach z
 
 Na vaší 3D tiskárně Voron napraskl díl držící Z motor.
 Máte k dispozici pouze STL, kde jsou oba držáky motorů vedle sebe,
-a chcete vytisknout pouze jeden. Měl by mít pevnost takovou, jako udává [dokumentace Voron](https://docs.vorondesign.com/sourcing.html#print-settings). Udávají několik možností výplně, ale vy víte, že máte pouze 19 minut na tisk. Rozhodnete se proto použít výšší výšku vrstvy. Použijte nejnižší možnou výšku vrstvy, která vám umožní vytisknout díl do 19 minut. Na druhu sparse infillu nezáleží, ale doporučujeme Cubic.
+a chcete vytisknout pouze jeden. Měl by mít pevnost takovou, jako udává [dokumentace Voron](https://docs.vorondesign.com/sourcing.html#print-settings). Udávají několik možností výplně, ale vy víte, že máte pouze 20 minut na tisk. Rozhodnete se proto použít výšší výšku vrstvy. Použijte nejnižší možnou výšku vrstvy, která vám umožní vytisknout díl do 20 minut. Na druhu sparse infillu nezáleží, ale doporučujeme Cubic.
 
 Dokumentace Voron doporučuje filament ABS, takže vyberte profil ABS @Voron.
 
