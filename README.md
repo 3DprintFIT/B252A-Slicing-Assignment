@@ -70,28 +70,12 @@ Teď, když už máte prozkoušené úlohy s přesnými parametry,
 tak si vyzkoušíte i varianty bez nich,
 které by se vám v životě 3D tiskaře mohly hodit.
 
-### DarthHolder (to be removed)
-
-Druhý je držák na tužky Darth Vadera – [vader_cup_v03.stl](vader_cup_v03.stl)
-(CC BY-NC 3.0 [tmasantos](https://www.thingiverse.com/thing:1396307))
-
-- Výška jedné vrstvy je 0.35 mm, ale první vrstva je 0.36 mm
-- Rychlost tisku infillu je 45 mm/s, perimetry tiskneme s rychlostí 40 mm/s
-- Chceme nechat vygenerovat support
-- Perimetry nám stačí jen dva
-- Infill 10% a pattern "Rectilinear"
-- Minimum Loops u skirtu změníme na 3
-- Teplota extruderu na první vrstvu je 238°C a na ostatní 248°C
-
-![vader_cub_v03.png](vader_cup_v03.png)
-
 ### Kostičky
 
-Kamarád chce vytisknout devět kostiček. Všechny s tenkou stěnou,
+Kamarád chce vytisknout čtyři kostičky z ABS. Všechny s tenkou stěnou,
 infill ten co má na sebe kolmé čáry, hustota 10 %,
 výplň rovnoběžná s hranami kostky. Jeden perimetr a po jedné stěně nahoře i dole.
-Vy osobně se bojíte, aby vám kostičky nepopraskaly kvůli průvanu v místnosti,
-takže kolem nich chcete vystavět ochranou bariéru.
+Kamarád je ale neskutečně nedočkavý a chce, aby se mu kostičky tiskly jedna po druhé, ne všechny najednou.
 Model jedné kostičky kamarád zvládnul vytvořit.
 
 Kostičkami je zakázáno otáčet, protože kamarád má iracionální strach z kosočtverců.
