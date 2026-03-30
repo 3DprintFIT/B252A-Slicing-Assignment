@@ -11,7 +11,6 @@ Do vašeho vytvořeného repozitáře odevzdáte soubory `bulbasaur.gcode`,
 `cube.gcode`, `T8_Nut_Block.gcode` a `koch_snowflake.gcode`.
 Doporučujeme si jednotlivé configurace slieru ukládat.
 
-
 ## Hodnocení
 
 - Naslicování všech šesti modelů (max. 3 body)
@@ -39,7 +38,7 @@ První z modelů je [bulbasaur.stl](bulbasaur.stl)
 - 5 perimetrů vertikálního shellu, 4 plné dolní vrstvy a 3 horní
 - Rychlost tisku vnějších perimetrů je 245 mm/s
 - Brim tloušťky 3mm, Outer brim only
-- Infill typu Gyroid s hustotou 15 %
+- Sparse infill typu Gyroid s hustotou 15 %
 - Teplota Bedu je při první vrstvě 79°C
 
 ![bulbasaur.png](bulbasaur.png)
@@ -51,10 +50,10 @@ Druhý je držák na tužky Darth Vadera – [vader_cup_v03.stl](vader_cup_v03.s
 
 - Materiál PETG
 - Výška jedné vrstvy je 0.25 mm, ale první vrstva je 0.3 mm
-- Rychlost tisku infillu je 245 mm/s, perimetry tiskneme s rychlostí 140 mm/s
+- Rychlost tisku sparse infillu je 245 mm/s, vnější perimetry tiskneme s rychlostí 140 mm/s
 - Chceme nechat vygenerovat support, máme rádi ekologii, takže stromové.
 - Perimetry nám stačí tři
-- Infill 12% a pattern "Gyroid"
+- Sparse infill 12% a pattern "Gyroid"
 - Minimum Loops u skirtu změníme na 3
 - Jako generátor stěn chceme zkusit Arachne
 - Žádný brim
@@ -68,9 +67,9 @@ Nechcete pořád tisknout jen figurky, ale také něco praktického
 a to otvírák na pivo – [bottle_opener](bottle_opener.stl)
 (CC BY-SA 3.0 [leemes](https://www.thingiverse.com/thing:132632))
 
-- 30% infill se vzorem 3D Honeycombu
+- 30% sparse infill se vzorem 3D Honeycombu
 - 3mm (exterior) brim
-- Infill se tiskne s rychlostí 240 mm/s
+- Sparse infill se tiskne s rychlostí 240 mm/s
 - Prvních 5 vrstev nemá žádné chlazení
 - Zpomalte tisk, pokud je doba výtisku jedné vrstvy menší než 6 s
   - (hint: je to proto, aby **plast** měl čas **vychladnout**)
@@ -87,7 +86,7 @@ které by se vám v životě 3D tiskaře mohly hodit.
 ### Kostičky
 
 Kamarád chce vytisknout čtyři kostičky z ABS. Všechny s tenkou stěnou,
-infill ten co má na sebe kolmé čáry, hustota 10 %,
+sparse infill ten co má na sebe kolmé čáry, hustota 10 %,
 výplň rovnoběžná s hranami kostky. Jeden perimetr a po jedné stěně nahoře i dole.
 Kamarád je ale neskutečně nedočkavý a chce, aby se mu kostičky tiskly jedna po druhé, ne všechny najednou.
 Model jedné kostičky kamarád zvládnul vytvořit.
@@ -102,7 +101,7 @@ Kostičkami je zakázáno otáčet, protože kamarád má iracionální strach z
 
 Na vaší 3D tiskárně Voron napraskl díl držící Z motor.
 Máte k dispozici pouze STL, kde jsou oba držáky motorů vedle sebe,
-a chcete vytisknout pouze jeden. Měl by mít pevnost takovou, jako udává [dokumentace Voron](https://docs.vorondesign.com/sourcing.html#print-settings). Udávají několik možností výplně, ale vy víte, že máte pouze 19 minut na tisk. Rozhodnete se proto použít výšší výšku vrstvy. Použijte nejnižší možnou výšku vrstvy, která vám umožní vytisknout díl do 19 minut. Na druhu infillu nezáleží, ale doporučujeme Cubic.
+a chcete vytisknout pouze jeden. Měl by mít pevnost takovou, jako udává [dokumentace Voron](https://docs.vorondesign.com/sourcing.html#print-settings). Udávají několik možností výplně, ale vy víte, že máte pouze 19 minut na tisk. Rozhodnete se proto použít výšší výšku vrstvy. Použijte nejnižší možnou výšku vrstvy, která vám umožní vytisknout díl do 19 minut. Na druhu sparse infillu nezáleží, ale doporučujeme Cubic.
 
 Dokumentace Voron doporučuje filament ABS, takže vyberte profil ABS @Voron.
 
