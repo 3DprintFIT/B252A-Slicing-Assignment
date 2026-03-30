@@ -20,6 +20,9 @@ Doporučujeme si jednotlivé configurace slieru ukládat.
 **Musíte použít OrcaSlicer.** Nepoužívejte Slic3r
 ani různé další slicery (PrusaSlicer apod.).
 
+**Měňte globální nastavení**, ne nestavení jednotlivých objektů,
+jinak nebude fungovat automatická kontrola.
+
 ## Rady
 
 Tiskárnu mějte nastavenou Voron.
