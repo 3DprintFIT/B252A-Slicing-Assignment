@@ -3,36 +3,32 @@
 Před odevzdáním úlohy přes GitHub je třeba
 [projevit souhlas se zpracováním osobních údajů](https://courses.fit.cvut.cz/BI-3DT/cs/gdpr.html).
 
-Vaším dnešním úkolem bude naslicovat několik modelů v aplikaci Slic3r.
-Abyste ale nezačínali s prázdnou, máme pro vás jako config bundle,
-který si importujte do Slic3ru pomocí volby _Load Config Bundle_.
-
-- [slic3r_config_bundle.ini](https://github.com/3DprintFIT/BI-3DT/blob/master/configs/printing/slic3r_config_bundle.ini)
+Vaším dnešním úkolem bude naslicovat několik modelů v aplikaci OrcaSlicer.
 
 \*\*Repozitář vytvořte na odkazu https://classroom.github.com/a/pkFhV4OT
 Do vašeho vytvořeného repozitáře odevzdáte soubory `bulbasaur.gcode`,
 `vader_cup_v03.gcode`, `bottle_opener.gcode`,
-`cube.gcode`, `z_bottom.gcode` a `koch_snowflake.gcode`.
-Doporučujeme si jednotlivé configurace Slic3eru ukládat.
+`cube.gcode`, `T8_Nut_Block.gcode` a `koch_snowflake.gcode`.
+Doporučujeme si jednotlivé configurace slieru ukládat.
+
 
 ## Hodnocení
 
 - Naslicování všech šesti modelů (max. 3 body)
 - Úloha nesplňuje zadání (0 bodů)
 
-**Musíte použít Slic3r 1.3.0.** Nepoužívejte starší verzi Slic3ru
-ani různé další varianty Slic3ru (Prusa Edition apod.).
+**Musíte použít OrcaSlicer.** Nepoužívejte Slic3r
+ani různé další slicery (PrusaSlicer apod.).
 
 ## Rady
 
-Tiskárnu mějte nastavenou Hybrix a filament PET z config bundlu.
-V tisku vycházejte z profilu Normal.
-Po jednotlivých vygenerováních gcodu prozkoumejte výstup jednotlivých nastavení
-v panelu _Preview_ (dole ve Slic3ru).
+Tiskárnu mějte nastavenou Voron.
+V tisku vycházejte z profilu `BI-3DT 0.20mm @Voron 0.2`.
+Před odevzdáním prozkoumejte vizálně gcode.
 
 ## Modely
 
-Před každou dílčí úlohou se **vraťte na výchozí konfiguraci**, opětovné _Load Config Bundle_, nebude fungovat tak jak očekáváte, je potřeba buď Slic3r zavřít a znovu otevřít, nebo uložit aktualní změny v změněné konfiguraci pomocí ikony diskety jako nový konfig. A poté používat ten originální, pro další úlohu.
+Před každou dílčí úlohou se **vraťte na výchozí konfiguraci**.
 
 ### Bulbasaur
 
