@@ -76,7 +76,7 @@ a to otvírák na pivo – [bottle_opener](bottle_opener.stl)
 - Sparse infill se tiskne s rychlostí 240 mm/s
 - Prvních 5 vrstev nemá žádné chlazení
 - Zpomalte tisk, pokud je doba výtisku jedné vrstvy menší než 6 s
-  - (hint: je to proto, aby **plast** měl čas **vychladnout**)
+  - (hint: je to proto, aby **plast** měl čas **vychladnout** `Max fan speed threshold`)
 - Větráček bude permanentně zaplý s minimální rychlostí 10 %
 - Během retrakce by se tisková hlava měla zvednout o 2 mm (Z-hop), když se přejíždí prázdným místem
   - (hint: nastavení Z-hop je specifické pro **extruder**)
